@@ -27,6 +27,8 @@ class Node
 	    {
 	        return this->Next;
 	    }
+	    
+	
 	};
 int main()
 	 {
@@ -70,20 +72,21 @@ int main()
 		    n17->SetNext (n18);
 		    n18->SetNext (n19);
 		    n19->SetNext (n20);
-		   Node* temp=n1;
-		    int n=1;
 		    
-		if(temp != NULL)
-	    {
+		   Node* temp=n1;
+		   cout << temp->GetData() << endl;
+		   int n=1;
+		    for(int i=0; i<n; i++)
+		    {temp = temp->GetNext();
+		    cout<<temp->GetData()<<endl;
 		    n++;
-	        cout<<temp->GetData()<<endl;
-	        
-	    }
-	    else
-	    {
-	    
-	         cout<<"invalid position";
-	    }
+			}
+	
+
+	
+
+	
 		
 	        return 0;
 	 }
+
