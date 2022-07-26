@@ -55,7 +55,6 @@ int main()
 			
 			
 		   Node* temp=n1;
-		    int n=1;
 	
 
 	cout << temp->GetData() << endl;
