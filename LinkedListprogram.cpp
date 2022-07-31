@@ -120,6 +120,11 @@ int main ()
 	l1.RemoveFromBegin();
 	l1.RemoveFromEnd();
 	l1.getLength();
+	 Node* temp=head;
+	cout << temp->GetData() << endl;
+	
+ 	Node* tem=tail;
+	cout << tem->GetData() << endl;
 
 	
 	return 0;
